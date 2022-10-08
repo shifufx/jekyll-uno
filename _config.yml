@@ -1,6 +1,6 @@
 # Site settings
-title: Shifu FX
-description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
+title: SHIFU FX
+description: 'Welcome To Our Community'
 # url: 'http://joshgerdes.com/'
 baseurl: ''
 # google_analytics: 'UA-XXXXXX-X'
@@ -8,7 +8,7 @@ baseurl: ''
 # disable_landing_page: true
 
 author:
-  name: 'Shifu FX'
+  name: 'SHIFU FX'
   email: mr.shifufx@gmail.com
   facebook_username: joshgerdes
   github_username:  shifufx

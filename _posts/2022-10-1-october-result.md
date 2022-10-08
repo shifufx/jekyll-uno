@@ -12,10 +12,15 @@ excerpt: "Based on October"
 | 2  | 2-Oct-22  | :heavy_minus_sign:  |  :heavy_minus_sign: |  :heavy_minus_sign: | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_minus_sign:| 
 | 3  |3-Oct-22   |  SELL | 1668   |1662   |6  | :heavy_check_mark: | | 
 |  |   |   BUY|1662   |1666   |4  | :heavy_check_mark: | |
-| 4  | 4-Oct-22  |   |   |   |  |  | | 
-| 5  | 5-Oct-22  |   |   |   |   |   |   |
-| 6  | 6-Oct-22  |   |   |   |    |   |   |
-| 7  | 7-Oct-22  |    |    |    |    |   |   |
+| 4  | 4-Oct-22  |  SELL |  1699  |  1712 | 13 |  | :x:| 
+| 5  | 5-Oct-22  | SELL  | 1726   | 1715   | 11   |:heavy_check_mark:   |   |
+|   |  |  BUY | 1708   | 1713   | 5   | :heavy_check_mark:  |   |
+|   |  |  BUY | 1705  | 1710   | 5   | :heavy_check_mark:   |   |
+| 6  | 6-Oct-22  | SELL  |  1723 | 1715   | 8    | :heavy_check_mark:  |   |
+|   |   |  BUY | 1717  | 1709   | 8    |   | :x:  |
+|   |   |  BUY |  1709 | 1714   | 5    | :heavy_check_mark:  |   |
+| 7  | 7-Oct-22  | SELL   |  1712  | 1706    | 6    |  :heavy_check_mark: |   |
+|   |   |  SELL  |  1712  | 1702    | 10    |  :heavy_check_mark: |   |
 | 8 | 8-Oct-22  | :heavy_minus_sign:  |  :heavy_minus_sign: | :heavy_minus_sign:  | :heavy_minus_sign:   |:heavy_minus_sign:   | :heavy_minus_sign:  |
 | 9 | 9-Oct-22  | :heavy_minus_sign:  | :heavy_minus_sign:  | :heavy_minus_sign:  | :heavy_minus_sign:  | :heavy_minus_sign:  | :heavy_minus_sign:  |
 | 10  |10-Oct-22   |   |   |   |  |  | | 
@@ -46,7 +51,7 @@ excerpt: "Based on October"
 <div class="mermaid">
 
 pie title Total Trade
-    "Take Profit" : 10
-    "Stop Loss" : 0
+    "Take Profit" : 52
+    "Stop Loss" : 21
     "OFF" : 0
 </div>
