@@ -44,7 +44,7 @@ excerpt: "Based on October"
 | 28  | 28-Oct-22  |   |   |   |   |   |   |
 | 29  | 29-Oct-22  | :heavy_minus_sign:  | :heavy_minus_sign:  | :heavy_minus_sign:  | :heavy_minus_sign:  | :heavy_minus_sign:  |:heavy_minus_sign:   |
 | 30  |  30-Oct-22 | :heavy_minus_sign:  | :heavy_minus_sign:  |  :heavy_minus_sign: |  :heavy_minus_sign: | :heavy_minus_sign:  |  :heavy_minus_sign: |
-|    |   |    | TOTAL TRADE  |     | | | |
+|    |   |    | TOTAL TRADE  |     | 52|21 | |
 
 ## Total Trade
 
