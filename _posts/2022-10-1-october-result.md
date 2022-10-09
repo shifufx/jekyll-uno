@@ -50,7 +50,7 @@ excerpt: "Based on October"
 
 <div class="mermaid">
 
-pie title Total Trade
+pie title 
     "Take Profit" : 52
     "Stop Loss" : 21
     "OFF" : 0

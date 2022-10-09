@@ -1,23 +1,5 @@
-# jekyll-uno
+# Personal Website for Trading Result
 
-Jekyll-Uno - a minimal, responsive theme for Jekyll based on the [Uno](https://github.com/daleanthony/Uno) theme for Ghost.
-
-> :warning:
-  This theme requires ruby and rubygems installed
-
-### Features
-
-* Clean layout
-* Resposive layout
-* Pagination
-* Syntax highlighting
-* Social links
-* Tags listing page
-* Categories listing page
-* Google Analytics integration
-* Disqus integration
-
----
 
 ### Install and Test
 
