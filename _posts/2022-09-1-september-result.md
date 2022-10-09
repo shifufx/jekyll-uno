@@ -57,4 +57,5 @@ excerpt: "Based on September"
 pie title
     "Take Profit" : 144
     "Stop Loss" : 67.5
+    "OFF" : 0
 </div>
