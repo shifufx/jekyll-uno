@@ -23,7 +23,9 @@ excerpt: "Based on October"
 |   |   |  SELL  |  1712  | 1702    | 10    |  :heavy_check_mark: |   |
 | 8 | 8-Oct-22  | :heavy_minus_sign:  |  :heavy_minus_sign: | :heavy_minus_sign:  | :heavy_minus_sign:   |:heavy_minus_sign:   | :heavy_minus_sign:  |
 | 9 | 9-Oct-22  | :heavy_minus_sign:  | :heavy_minus_sign:  | :heavy_minus_sign:  | :heavy_minus_sign:  | :heavy_minus_sign:  | :heavy_minus_sign:  |
-| 10  |10-Oct-22   |   |   |   |  |  | | 
+| 10  |10-Oct-22   |  SELL | 1693   |1685.50   | 7  |:heavy_check_mark:  | | 
+|   |   |  SELL | 1687   | 1681   | 6  | :heavy_check_mark: | | 
+|   |   |  SELL | 1683   | 1678   | 5 | :heavy_check_mark: | | 
 | 11  | 11 -Oct-22  |   |   |   |  |  | | 
 | 12  | 12-Oct-22  |    |    |   |   |   |   |
 | 13  | 13-Oct-22  |    |    |   |    |   |   |
@@ -44,14 +46,14 @@ excerpt: "Based on October"
 | 28  | 28-Oct-22  |   |   |   |   |   |   |
 | 29  | 29-Oct-22  | :heavy_minus_sign:  | :heavy_minus_sign:  | :heavy_minus_sign:  | :heavy_minus_sign:  | :heavy_minus_sign:  |:heavy_minus_sign:   |
 | 30  |  30-Oct-22 | :heavy_minus_sign:  | :heavy_minus_sign:  |  :heavy_minus_sign: |  :heavy_minus_sign: | :heavy_minus_sign:  |  :heavy_minus_sign: |
-|    |   |    | TOTAL TRADE  |     | 52|21 | |
+|    |   |    | TOTAL TRADE  |     | |52 | 21|
 
 ## Total Trade
 
 <div class="mermaid">
 
 pie title 
-    "Take Profit" : 52
-    "Stop Loss" : 21
+    "TP" : 70
+    "SL" : 21
     "OFF" : 0
 </div>

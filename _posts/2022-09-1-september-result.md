@@ -55,7 +55,7 @@ excerpt: "Based on September"
 <div class="mermaid">
 
 pie title
-    "Take Profit" : 144
-    "Stop Loss" : 67.5
+    "TP" : 144
+    "SL" : 67.5
     "OFF" : 0
 </div>
