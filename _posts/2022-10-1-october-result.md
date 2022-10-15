@@ -46,7 +46,7 @@ excerpt: "Based on October"
 | 28  | 28-Oct-22  |   |   |   |   |   |   |
 | 29  | 29-Oct-22  | :heavy_minus_sign:  | :heavy_minus_sign:  | :heavy_minus_sign:  | :heavy_minus_sign:  | :heavy_minus_sign:  |:heavy_minus_sign:   |
 | 30  |  30-Oct-22 | :heavy_minus_sign:  | :heavy_minus_sign:  |  :heavy_minus_sign: |  :heavy_minus_sign: | :heavy_minus_sign:  |  :heavy_minus_sign: |
-|    |   |    | TOTAL TRADE  |     | |52 | 21|
+|    |   |    | TOTAL TRADE  |     | |70 | 21|
 
 ## Total Trade
 
@@ -55,5 +55,4 @@ excerpt: "Based on October"
 pie title 
     "TP" : 70
     "SL" : 21
-    "OFF" : 0
 </div>
