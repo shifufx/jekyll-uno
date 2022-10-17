@@ -1594,8 +1594,8 @@ input[type="tel"] {
 
 	// adding mermaid class
 	.mermaid {
-		width: 25em;
-		margin-left: -30px;
+		width: 400px;
+		margin-left: -20px;
 	}
 	.btn-mobile-menu {
 		display: block; }
@@ -1815,13 +1815,11 @@ input[type="tel"] {
 		display: block;
 		margin-bottom: .4em; } }
 
-
 		// for ipad
-
-		@media (min-width:768px) and (max-width: 1024px) {
+		@media (min-width:810px) and (max-width: 1080px) {
 
 			.panel-main__content{
-				max-width: 1024px;
+				max-width: 1080px;
 				margin: 0;
 				// margin-right: 5em;
 			}
@@ -1840,8 +1838,7 @@ input[type="tel"] {
 			.panel-main__inner {
 				display: table-cell;
 				padding: 60px 10%; 
-		width: 35em;
-			
+				width: 350em;
 			}
 		
 			.panel-cover__description {
@@ -1864,7 +1861,7 @@ input[type="tel"] {
 					background-position: center center; }
 					.panel-cover.panel-cover--collapsed .panel-main__inner {
 						display: block;
-				width: 100%;
+						width: 100%;
 
 						padding: 70px 0 30px 0; }
 					.panel-cover.panel-cover--collapsed .panel-cover__logo {
@@ -1908,7 +1905,7 @@ input[type="tel"] {
 						width: 25.8%; }
 		
 			.content-wrapper {
-				width: 80%;
+				width: 90%;
 				max-width: none;
 				margin: 0 auto; }
 		

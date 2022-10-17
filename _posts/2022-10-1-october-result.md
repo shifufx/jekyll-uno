@@ -26,10 +26,12 @@ excerpt: "Based on October"
 | 10  |10-Oct-22   |  SELL | 1693   |1685.50   | 7  |:heavy_check_mark:  | | 
 |   |   |  SELL | 1687   | 1681   | 6  | :heavy_check_mark: | | 
 |   |   |  SELL | 1683   | 1678   | 5 | :heavy_check_mark: | | 
-| 11  | 11 -Oct-22  |   |   |   |  |  | | 
-| 12  | 12-Oct-22  |    |    |   |   |   |   |
-| 13  | 13-Oct-22  |    |    |   |    |   |   |
-| 14  |14-Oct-22  |  |  |     |   |   |   |
+| 11  | 11 -Oct-22  | SELL  | 1667   | 1664   | 3  |  :heavy_check_mark:| | 
+| |  | SELL  | 1675 | 1664   | 11 |  :heavy_check_mark:| | 
+| 12  | 12-Oct-22  | SELL  | 1668    | 1680   | 8   |   |:x:   |
+| 13  | 13-Oct-22  |  SELL  | 1668    | 1680   | 12    |   |:x:   |
+|  | |  SELL  | 1680    | 1662   | 18    |  :heavy_check_mark: |   |
+| 14  |14-Oct-22  | SELL | 1670  | 1661    |9   |:heavy_check_mark:   |   |
 | 15  | 15-Oct-22  |:heavy_minus_sign:   |  :heavy_minus_sign: |:heavy_minus_sign:   | :heavy_minus_sign:  |  :heavy_minus_sign: | :heavy_minus_sign:  |
 | 16  | 16-Oct-22  | :heavy_minus_sign:  | :heavy_minus_sign:  |   :heavy_minus_sign:| :heavy_minus_sign: |:heavy_minus_sign:  |:heavy_minus_sign: | 
 | 17  | 17-Oct-22  |   |   |   |  |  | | 
