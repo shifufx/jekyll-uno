@@ -49,45 +49,48 @@ excerpt: "Based on September"
 | |   |SELL   |1673   |1660   |13   | :heavy_check_mark:  |   |
 |    |   |    | TOTAL TRADE  |     | |144 |67.5 |
 
+## Total Trade
 
-<canvas id="myChart" width="400" height="400"></canvas>
+<div id="container" style="width:100%; height:400px;"></div>
 
-<script>
-var ctx = document.getElementById('myChart').getContext('2d');
-var myChart = new Chart(ctx, {
-    type: 'bar',
-    data: {
-        labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
-        datasets: [{
-            label: '# of Votes',
-            data: [12, 19, 3, 5, 2, 3],
-            backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)',
-                'rgba(153, 102, 255, 0.2)',
-                'rgba(255, 159, 64, 0.2)'
-            ],
-            borderColor: [
-                'rgba(255, 99, 132, 1)',
-                'rgba(54, 162, 235, 1)',
-                'rgba(255, 206, 86, 1)',
-                'rgba(75, 192, 192, 1)',
-                'rgba(153, 102, 255, 1)',
-                'rgba(255, 159, 64, 1)'
-            ],
-            borderWidth: 1
-        }]
-    },
-    options: {
-        scales: {
-            yAxes: [{
-                ticks: {
-                    beginAtZero: true
+<script> 
+
+document.addEventListener('DOMContentLoaded', function () {
+        const chart = Highcharts.chart('container', {
+            chart: {
+                type: 'line'
+            },
+            title: {
+                text: 'Trade With Shifu FX'
+            },
+            xAxis: {
+                categories: ['Take Profit', 'Stop Loss', 'OFF'],
+            },
+            yAxis: {
+                title: {
+                    text: 'PIP'
                 }
-            }]
-        }
-    }
-});
+            },
+             tooltip: {
+                valueSuffix: 'pip'
+            },
+            series: [{
+                name: 'Take Profit',
+                data: [0, 45, 67, 144],
+                lineWidth: 3,
+                color: '#07ed16'
+            }, {
+                name: 'Stop Loss',
+                data: [0, 32, 44, 67],
+                lineWidth: 3,
+                color: '#ed1307'
+            }, {
+                name: 'OFF',
+                data: [0, 2, 3 ],
+                lineWidth: 3,
+            }
+            
+            ],
+        });
+    });
 </script>
