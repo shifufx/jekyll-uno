@@ -34,27 +34,36 @@ excerpt: "Based on October"
 | 14  |14-Oct-22  | SELL | 1670  | 1661    |9   |:heavy_check_mark:   |   |
 | 15  | 15-Oct-22  |:heavy_minus_sign:   |  :heavy_minus_sign: |:heavy_minus_sign:   | :heavy_minus_sign:  |  :heavy_minus_sign: | :heavy_minus_sign:  |
 | 16  | 16-Oct-22  | :heavy_minus_sign:  | :heavy_minus_sign:  |   :heavy_minus_sign:| :heavy_minus_sign: |:heavy_minus_sign:  |:heavy_minus_sign: | 
-| 17  | 17-Oct-22  |   |   |   |  |  | | 
-| 18 | 18-Oct-22  |   |   |   |  |  | | 
-| 19  | 19-Oct-22  |    |    |   |    |   |   |
-| 20  | 20-Oct-22  |   |   |   |   |   |   |
-| 21  | 21-Oct-22  |   |   |   |   |   |   |
+| 17  | 17-Oct-22  | BUY  | 1648   | 1650.50   | 2  | :heavy_check_mark: | | 
+| |   | SELL  |  1650  | 1663    | 7   |  |:x: | 
+| |   | SELL  |   1664 | 1648    | 4   | :heavy_check_mark: | | 
+| 18 | 18-Oct-22  |  SELL | 1650   | 1659   | 9  |  | :x: |
+|  |  |  SELL | 1660 | 1654 | 6 | :heavy_check_mark: | |
+|  |  |  BUY | 1647  | 1651 | 4  | :heavy_check_mark: |  |
+| 19  | 19-Oct-22  | SELL   | 1651    | 1647   | 4   | :heavy_check_mark:  |   |
+|   |   |  SELL  | 1636    | 1625  | 11   | :heavy_check_mark:   |   |
+| 20  | 20-Oct-22  | SELL  | 1634   | 1628 | 6   |  :heavy_check_mark:  |   |
+|   |   | SELL  | 1644   | 1640   | 4   | :heavy_check_mark:   |   |
+| 21  | 21-Oct-22  |  SELL | 1629   | 1623   | 6   |:heavy_check_mark:   |   |
 | 22 | 22-Oct-22  |:heavy_minus_sign:   |  :heavy_minus_sign: | :heavy_minus_sign:  | :heavy_minus_sign:  | :heavy_minus_sign:  | :heavy_minus_sign:  |
 | 23  | 23-Oct-22  |  :heavy_minus_sign: | :heavy_minus_sign:|:heavy_minus_sign:   |  :heavy_minus_sign:  |  :heavy_minus_sign: | :heavy_minus_sign:  |
-| 24  | 24-Oct-22  |   |   |   |  |  | | 
-| 25 | 25-Oct-22  |   |   |   |  |  | | 
-| 26  |  26-Oct-22 |   |   |   |   |   |   |
+| 24  | 24-Oct-22  | BUY  | 1644 | 1652 | 8  | :heavy_check_mark: | | 
+| 25 | 25-Oct-22  | BUY  | 1647 | 1640   |7| |:x: | 
+|  |   |  SELL | 1644   | 1655 | 11 |  |:x: | 
+|  |   | SELL  | 1655   | 1650   |5  |  |:x: | 
+| 26  |  26-Oct-22 | SELL  | 1656   | 1663   | 7 |   | :x:   |
+|   |   |  SELL | 1662  | 1670  | 8   |   |:x:   |
 | 27 | 27-Oct-22  |   |   |   |   |   |   |
 | 28  | 28-Oct-22  |   |   |   |   |   |   |
 | 29  | 29-Oct-22  | :heavy_minus_sign:  | :heavy_minus_sign:  | :heavy_minus_sign:  | :heavy_minus_sign:  | :heavy_minus_sign:  |:heavy_minus_sign:   |
 | 30  |  30-Oct-22 | :heavy_minus_sign:  | :heavy_minus_sign:  |  :heavy_minus_sign: |  :heavy_minus_sign: | :heavy_minus_sign:  |  :heavy_minus_sign: |
-|    |   |    | TOTAL TRADE  |     | |70 | 21|
+|    |   |    | TOTAL TRADE  |     | |174 | 95|
 
 ## Total Trade
 
 <div class="mermaid">
 
 pie title 
-    "TP" : 70
-    "SL" : 21
+    "TP" : 166
+    "SL" : 95
 </div>

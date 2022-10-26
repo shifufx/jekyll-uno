@@ -64100,7 +64100,7 @@ var draw = function draw(txt, id) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 var getStyles = function getStyles(options) {
-  return ".pieTitleText {\n    text-anchor: middle;\n    font-size: 25px;\n    fill: ".concat(options.taskTextDarkColor, ";\n    font-family: ").concat(options.fontFamily, ";\n  }\n  .slice {\n    font-family: ").concat(options.fontFamily, ";\n    fill: ").concat(options.textColor, ";\n    // fill: white;\n  }\n  .legend text {\n    fill: ").concat(options.taskTextDarkColor, ";\n    font-family: ").concat(options.fontFamily, ";\n    font-size: 17px;\n  }\n");
+  return ".pieTitleText {\n    text-anchor: middle;\n    font-size: 25px;\n    fill: ".concat(options.taskTextDarkColor, ";\n    font-family: ").concat(options.fontFamily, ";\n  }\n  .slice {\n    font-family: ").concat(options.fontFamily, ";\n    fill: ").concat(options.textColor, ";\n    // fill: white;\n  }\n  .legend text {\n    fill: ").concat(options.taskTextDarkColor, ";\n    font-family: ").concat(options.fontFamily, ";\n    font-size: 13px;\n  }\n");
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (getStyles);
@@ -69239,7 +69239,7 @@ var conf = {
   width: 150,
   // Height of task boxes
   height: 50,
-  taskFontSize: 14,
+  taskFontSize: 10,
   taskFontFamily: '"Open-Sans", "sans-serif"',
   // Margin around loop boxes
   boxMargin: 10,
@@ -71743,7 +71743,7 @@ function () {
     // this.tertiaryColor = '#CCCCFF';
 
     this.fontFamily = '"trebuchet ms", verdana, arial';
-    this.fontSize = '16px'; // this.updateColors();
+    this.fontSize = '10px'; // this.updateColors();
   }
 
   _createClass(Theme, [{
@@ -73624,3 +73624,22 @@ var calculateTextDimensions = memoize(function (text, config) {
 /******/ })["default"];
 });
 //# sourceMappingURL=mermaid.js.map
+
+module.exports = function (eleventyConfig) {
+  const highlighter = eleventyConfig.markdownHighlighter;
+  eleventyConfig.addMarkdownHighlighter((str, language) => {
+    if (language === "mermaid") {
+      const themeVariables = JSON.stringify({
+        darkMode: true,
+        background: "#044965",
+        primaryColor: "#05668d",
+        fontFamily: "Montserrat, sans-serif",
+        fontSize: "13px",
+        lineColor: "white",
+      });
+      const init = `%%{init: {'theme': 'forest', 'themeVariables': ${themeVariables} }}%%`;
+      return `<pre class="mermaid">${init + "\n" + str}</pre>`;
+    }
+    return highlighter(str, language);
+  });
+};

@@ -57,5 +57,4 @@ excerpt: "Based on September"
 pie title
     "TP" : 144
     "SL" : 67.5
-    "OFF" : 0
 </div>
