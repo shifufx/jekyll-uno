@@ -1589,11 +1589,11 @@ input[type="tel"] {
 	.panel-main__content{
 		max-width: 960px;
 		margin: 0;
-		// margin-right: 10em;
 	}
 
 	// adding mermaid class
 	.mermaid {
+		min-width: 200px;
 		width: 340px;
 		margin-left: -20px;
 		font-size: 13px !important;

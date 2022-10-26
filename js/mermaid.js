@@ -52167,7 +52167,9 @@ var config = {
      * This sets the auto-wrap state for the diagram
      * **Default value false.
      */
-    wrap: false,
+    // wrap: false,
+    wrap: true,
+
 
     /**
      * This sets the auto-wrap padding for the diagram (sides only)
@@ -65723,7 +65725,7 @@ var drawMessage = function drawMessage(g, msgModel) {
 
   if (_sequenceDb__WEBPACK_IMPORTED_MODULE_5__["default"].showSequenceNumbers() || conf.showSequenceNumbers) {
     line.attr('marker-start', 'url(' + url + '#sequencenumber)');
-    g.append('text').attr('x', startx).attr('y', lineStarty + 4).attr('font-family', 'sans-serif').attr('font-size', '12px').attr('text-anchor', 'middle').attr('textLength', '16px').attr('class', 'sequenceNumber').text(sequenceIndex);
+    g.append('text').attr('x', startx).attr('y', lineStarty + 4).attr('font-family', 'sans-serif').attr('font-size', '12px').attr('text-anchor', 'middle').attr('textLength', '12px').attr('class', 'sequenceNumber').text(sequenceIndex);
   }
 
   bounds.bumpVerticalPos(totalOffset);
@@ -71939,7 +71941,7 @@ function () {
     this.border2 = Object(khroma__WEBPACK_IMPORTED_MODULE_0__["rgba"])(255, 255, 255, 0.25);
     this.arrowheadColor = 'calculated';
     this.fontFamily = '"trebuchet ms", verdana, arial';
-    this.fontSize = '16px';
+    this.fontSize = '12px';
     this.labelBackground = '#181818';
     this.textColor = '#ccc';
     /* Flowchart variables */
@@ -72161,7 +72163,7 @@ function () {
     this.border2 = '#aaaa33';
     this.arrowheadColor = '#333333';
     this.fontFamily = '"trebuchet ms", verdana, arial';
-    this.fontSize = '16px';
+    this.fontSize = '12px';
     this.labelBackground = '#e8e8e8';
     this.textColor = '#333';
     /* Flowchart variables */
@@ -72373,7 +72375,7 @@ function () {
     this.border2 = '#6eaa49';
     this.arrowheadColor = 'green';
     this.fontFamily = '"trebuchet ms", verdana, arial';
-    this.fontSize = '16px';
+    this.fontSize = '13px';
     this.tertiaryColor = Object(khroma__WEBPACK_IMPORTED_MODULE_0__["lighten"])('#cde498', 10);
     this.primaryBorderColor = Object(_theme_helpers__WEBPACK_IMPORTED_MODULE_1__["mkBorder"])(this.primaryColor, this.darkMode);
     this.secondaryBorderColor = Object(_theme_helpers__WEBPACK_IMPORTED_MODULE_1__["mkBorder"])(this.secondaryColor, this.darkMode);
@@ -72616,7 +72618,7 @@ function () {
     this.done = '#bbb';
     this.arrowheadColor = '#333333';
     this.fontFamily = '"trebuchet ms", verdana, arial';
-    this.fontSize = '16px';
+    this.fontSize = '12px';
     /* Flowchart variables */
 
     this.nodeBkg = 'calculated';
@@ -73619,27 +73621,13 @@ var calculateTextDimensions = memoize(function (text, config) {
   runFunc: runFunc
 });
 
+
+  
 /***/ })
 
 /******/ })["default"];
+
+
 });
 //# sourceMappingURL=mermaid.js.map
 
-module.exports = function (eleventyConfig) {
-  const highlighter = eleventyConfig.markdownHighlighter;
-  eleventyConfig.addMarkdownHighlighter((str, language) => {
-    if (language === "mermaid") {
-      const themeVariables = JSON.stringify({
-        darkMode: true,
-        background: "#044965",
-        primaryColor: "#05668d",
-        fontFamily: "Montserrat, sans-serif",
-        fontSize: "13px",
-        lineColor: "white",
-      });
-      const init = `%%{init: {'theme': 'forest', 'themeVariables': ${themeVariables} }}%%`;
-      return `<pre class="mermaid">${init + "\n" + str}</pre>`;
-    }
-    return highlighter(str, language);
-  });
-};

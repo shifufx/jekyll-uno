@@ -61,9 +61,40 @@ excerpt: "Based on October"
 
 ## Total Trade
 
-<div class="mermaid">
+<div id="container" style="width:100%; height:400px;"></div>
 
-pie title 
-    "TP" : 166
-    "SL" : 95
-</div>
+<script> 
+
+document.addEventListener('DOMContentLoaded', function () {
+        const chart = Highcharts.chart('container', {
+            chart: {
+                type: 'line'
+            },
+            title: {
+                text: 'Trade With Shifu FX'
+            },
+            xAxis: {
+                categories: ['Take Profit', 'Stop Loss'],
+            },
+            yAxis: {
+                title: {
+                    text: 'PIP'
+                }
+            },
+             tooltip: {
+                valueSuffix: 'pip'
+            },
+            series: [{
+                name: 'Take Profit',
+                data: [0, 174],
+                lineWidth: 3,
+                color: '#07ed16'
+            }, {
+                name: 'Stop Loss',
+                data: [0, 95],
+                lineWidth: 3,
+                color: '#ed1307'
+            }],
+        });
+    });
+</script>

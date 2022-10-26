@@ -1,0 +1,17 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js" integrity="sha512-SuxO9djzjML6b9w9/I07IWnLnQhgyYVSpHZx0JV97kGBfTIsUYlWflyuW4ypnvhBrslz1yJ3R+S14fdCWmSmSA==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.js"></script>
+<script>
+window.addEventListener("load", function(){
+  for (let element of document.getElementsByClassName("chartjs")) {
+    let parent = element.parentNode
+    let pparent = parent.parentNode
+    let canvas = document.createElement('canvas');
+    let box = document.createElement('div');
+    box.appendChild(canvas);
+    let ctx = canvas.getContext("2d")
+    let myChart = new Chart(ctx, JSON.parse(element.textContent));
+    box.setAttribute("style","display:block;width:75%;text-align:'center';margin: 5px auto;");
+    pparent.replaceChild(box, parent)
+  }
+});
+</script>

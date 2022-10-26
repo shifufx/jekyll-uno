@@ -42,10 +42,10 @@
 
               {% if site.author.facebook_username %}
               <!-- Facebook -->
-              <li class="navigation__item">
+              <li class="navigation__item" style="font-size: 1.75em">
                 <a href="http://fb.me/{{ site.author.facebook_username }}"
                   title="{{ site.author.facebook_username }} on Facebook" target="_blank">
-                  <i class="icon icon-social-facebook"></i>
+                  <i class="fa fa-facebook-square"></i>
                   <span class="label">Facebook</span>
                 </a>
               </li>
@@ -56,7 +56,7 @@
               <li class="navigation__item">
                 <a href="https://www.linkedin.com/in/{{ site.author.linkedin_username }}"
                   title="{{ site.author.linkedin_username }} on LinkedIn" target="_blank">
-                  <i class="icon icon-social-linkedin"></i>
+                  <i class="fa fa-facebook-square"></i>
                   <span class="label">LinkedIn</span>
                 </a>
               </li>
@@ -64,10 +64,10 @@
 
               {% if site.author.github_username %}
               <!-- GitHub -->
-              <li class="navigation__item">
+              <li class="navigation__item" style="font-size: 1.75em">
                 <a href="https://www.github.com/{{ site.author.github_username }}"
                   title="{{ site.author.github_username }} on GitHub" target="_blank">
-                  <i class="icon icon-social-github"></i>
+                  <i class="fa fa-github"></i>
                   <span class="label">GitHub</span>
                 </a>
               </li>
@@ -75,18 +75,34 @@
 
               {% if site.author.email %}
               <!-- Email -->
-              <li class="navigation__item">
+              <li class="navigation__item" style="font-size: 1.75em">
                 <a href="mailto:{{ site.author.email }}" title="Email {{ site.author.email }}" target="_blank">
-                  <i class="icon icon-mail"></i>
+                  <i class="fa fa-envelope-o"></i>
                   <span class="label">Email</span>
                 </a>
               </li>
               {% endif %}
 
               <!-- RSS -->
-              <li class="navigation__item">
+              <li class="navigation__item" style="font-size: 1.75em">
                 <a href="{{ site.baseurl }}/feed.xml" title="Subscribe" target="_blank">
-                  <i class="icon icon-rss"></i>
+                  <i class="fa fa-rss"></i>
+                  <span class="label">RSS</span>
+                </a>
+              </li>
+
+              <!-- instagram -->
+              <li class="navigation__item" style="font-size: 1.75em">
+                <a href="https://instagram.com/shifufx_official" title="Subscribe" target="_blank">
+                  <i class="fa fa-instagram"></i>
+                  <span class="label">RSS</span>
+                </a>
+              </li>
+              
+              <!-- website -->
+              <li class="navigation__item" style="font-size: 1.75em">
+                <a href="https://shifufx.id/" title="Subscribe" target="_blank">
+                  <i class="fa fa-paper-plane"></i>
                   <span class="label">RSS</span>
                 </a>
               </li>
