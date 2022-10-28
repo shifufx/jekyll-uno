@@ -52,16 +52,19 @@ excerpt: "Based on October"
 |  |   | SELL  | 1655   | 1650   |5  |  |:x: | 
 | 26  |  26-Oct-22 | SELL  | 1656   | 1663   | 7 |   | :x:   |
 |   |   |  SELL | 1662  | 1670  | 8   |   |:x:   |
-| 27 | 27-Oct-22  |   |   |   |   |   |   |
-| 28  | 28-Oct-22  |   |   |   |   |   |   |
+| 27 | 27-Oct-22  |  BUY | 1660   | 1665   | 5   | :heavy_check_mark:  |   |
+|  |   |  SELL | 1657   | 1661   | 6   | :heavy_check_mark:   |   |
+| 28  | 28-Oct-22  |  BUY | 1659   | 1654   | 5   |   | :x:   |
+|  |   | BUY  | 1640   | 1646   | 6   | :heavy_check_mark:   |   |
 | 29  | 29-Oct-22  | :heavy_minus_sign:  | :heavy_minus_sign:  | :heavy_minus_sign:  | :heavy_minus_sign:  | :heavy_minus_sign:  |:heavy_minus_sign:   |
 | 30  |  30-Oct-22 | :heavy_minus_sign:  | :heavy_minus_sign:  |  :heavy_minus_sign: |  :heavy_minus_sign: | :heavy_minus_sign:  |  :heavy_minus_sign: |
 | 31  | 31-Oct-22  |   |   |   |   |   |   |
 
-|    |   |    | TOTAL TRADE  |     | |184 | 95|
+|    |   |    | TOTAL TRADE  |     | |195 | 100|
 
-## Trade Result October by chart
-
+## October Result by Chart
+\
+<!-- \ -->
 <div id="container" style="width:100%; height:400px;"></div>
 
 <script> 
@@ -72,7 +75,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 type: 'line'
             },
             title: {
-                text: 'October Trade With Shifu FX'
+                text: ' '
             },
             xAxis: {
                 title: {
@@ -90,12 +93,12 @@ document.addEventListener('DOMContentLoaded', function () {
             },
             series: [{
                 name: 'Take Profit',
-                data: [0, 70, 129, 184],
+                data: [0, 70, 129, 195],
                 lineWidth: 3,
                 color: '#07ed16'
             }, {
                 name: 'Stop Loss',
-                data: [0, 21 , 41, 95],
+                data: [0, 21 , 41, 100],
                 lineWidth: 3,
                 color: '#ed1307'
             }, {
@@ -109,7 +112,8 @@ document.addEventListener('DOMContentLoaded', function () {
 </script>
 
 ## Trade Result Monthly
-
+\
+<!-- \ -->
 <div>
   <canvas id="myChart"></canvas>
 </div>
@@ -123,7 +127,7 @@ document.addEventListener('DOMContentLoaded', function () {
             datasets: [
                 {
                     label: 'Take Profit',
-                    data: [0, 144, 183],
+                    data: [0, 144, 195],
                     fill: false,
                     borderWith: 5,
                     backgroundColor: '#2a9df4',
@@ -132,7 +136,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 {
                     label: 'Stop Loss',
-                    data: [0, 64, 95],
+                    data: [0, 64, 100],
                     fill: false,
                     borderWith: 5,
                     backgroundColor: '#F65A83',

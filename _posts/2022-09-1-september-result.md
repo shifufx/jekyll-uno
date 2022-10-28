@@ -51,7 +51,7 @@ excerpt: "Based on September"
 
 |    |   |    | TOTAL TRADE  |  | |144|67|
 
-## Total Trade
+## September Result by Chart
 
 <div id="container" style="width:100%; height:400px;"></div>
 
@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 type: 'line'
             },
             title: {
-                text: 'September Trade With Shifu FX'
+                text: ' '
             },
             xAxis: {
                 title: {
