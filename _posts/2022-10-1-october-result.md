@@ -2,7 +2,6 @@
 title: "October Result"
 categories: [ShifuFX]
 tags: [ShifuFX]
-mermaid: true
 excerpt: "Based on October"
 ---
 
@@ -57,6 +56,8 @@ excerpt: "Based on October"
 | 28  | 28-Oct-22  |   |   |   |   |   |   |
 | 29  | 29-Oct-22  | :heavy_minus_sign:  | :heavy_minus_sign:  | :heavy_minus_sign:  | :heavy_minus_sign:  | :heavy_minus_sign:  |:heavy_minus_sign:   |
 | 30  |  30-Oct-22 | :heavy_minus_sign:  | :heavy_minus_sign:  |  :heavy_minus_sign: |  :heavy_minus_sign: | :heavy_minus_sign:  |  :heavy_minus_sign: |
+| 31  | 31-Oct-22  |   |   |   |   |   |   |
+
 |    |   |    | TOTAL TRADE  |     | |174 | 95|
 
 ## Total Trade
@@ -74,7 +75,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 text: 'Trade With Shifu FX'
             },
             xAxis: {
-                categories: ['Take Profit', 'Stop Loss'],
+                categories: [],
             },
             yAxis: {
                 title: {
