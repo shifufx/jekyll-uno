@@ -63,9 +63,12 @@ document.addEventListener('DOMContentLoaded', function () {
                 type: 'line'
             },
             title: {
-                text: 'Trade With Shifu FX'
+                text: 'September Trade With Shifu FX'
             },
             xAxis: {
+                title: {
+                    text: 'Week'
+                },
                 categories: [],
             },
             yAxis: {
@@ -94,4 +97,50 @@ document.addEventListener('DOMContentLoaded', function () {
             ],
         });
     });
+</script>
+
+
+## Trade Result Monthly
+
+<div>
+  <canvas id="myChart"></canvas>
+</div>
+
+<script> 
+    var ctx = document.getElementById('myChart').getContext('2d'); 
+    var myChart = new Chart(ctx, { 
+        type: 'line', 
+        data: {
+            labels: [' ','Sep', 'Oct', 'Nov', 'Des'],
+            datasets: [
+                {
+                    label: 'Take Profit',
+                    data: [0, 144, 183],
+                    fill: false,
+                    borderWith: 5,
+                    backgroundColor: '#2a9df4',
+                    borderColor: '#2a9df4',
+                },
+
+                {
+                    label: 'Stop Loss',
+                    data: [0, 64, 95],
+                    fill: false,
+                    borderWith: 5,
+                    backgroundColor: '#F65A83',
+                    borderColor: '#F65A83',
+
+                }
+                
+                ], 
+                },
+
+            options: 
+                {
+                    scales:
+                    { yAxes: [{
+                        ticks: {beginAtZero: true}
+                    }]}
+                }
+}); 
 </script>

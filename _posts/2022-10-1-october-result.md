@@ -58,9 +58,9 @@ excerpt: "Based on October"
 | 30  |  30-Oct-22 | :heavy_minus_sign:  | :heavy_minus_sign:  |  :heavy_minus_sign: |  :heavy_minus_sign: | :heavy_minus_sign:  |  :heavy_minus_sign: |
 | 31  | 31-Oct-22  |   |   |   |   |   |   |
 
-|    |   |    | TOTAL TRADE  |     | |174 | 95|
+|    |   |    | TOTAL TRADE  |     | |184 | 95|
 
-## Total Trade
+## Trade Result October by chart
 
 <div id="container" style="width:100%; height:400px;"></div>
 
@@ -72,9 +72,12 @@ document.addEventListener('DOMContentLoaded', function () {
                 type: 'line'
             },
             title: {
-                text: 'Trade With Shifu FX'
+                text: 'October Trade With Shifu FX'
             },
             xAxis: {
+                title: {
+                    text: 'Week'
+                },
                 categories: [],
             },
             yAxis: {
@@ -104,3 +107,49 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 </script>
+
+## Trade Result Monthly
+
+<div>
+  <canvas id="myChart"></canvas>
+</div>
+
+<script> 
+    var ctx = document.getElementById('myChart').getContext('2d'); 
+    var myChart = new Chart(ctx, { 
+        type: 'line', 
+        data: {
+            labels: [' ','Sep', 'Oct', 'Nov', 'Des'],
+            datasets: [
+                {
+                    label: 'Take Profit',
+                    data: [0, 144, 183],
+                    fill: false,
+                    borderWith: 5,
+                    backgroundColor: '#2a9df4',
+                    borderColor: '#2a9df4',
+                },
+
+                {
+                    label: 'Stop Loss',
+                    data: [0, 64, 95],
+                    fill: false,
+                    borderWith: 5,
+                    backgroundColor: '#F65A83',
+                    borderColor: '#F65A83',
+
+                }
+                
+                ], 
+                },
+
+            options: 
+                {
+                    scales:
+                    { yAxes: [{
+                        ticks: {beginAtZero: true}
+                    }]}
+                }
+}); 
+</script>
+
