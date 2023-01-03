@@ -73,17 +73,17 @@ document.addEventListener('DOMContentLoaded', function () {
             },
             series: [{
                 name: 'Take Profit',
-                data: [0,13, 20,40,70 ,84],
+                data: [0,13,70,84],
                 lineWidth: 3,
                 color: '#07ed16'
             }, {
                 name: 'Stop Loss',
-                data: [0,5, 16, 30, 40],
+                data: [0,16, 30, 40],
                 lineWidth: 3,
                 color: '#ed1307'
             }, {
                 name: 'OFF',
-                data: [0,1,2,3,4,5,6,7],
+                data: [0,1,4,7],
                 lineWidth: 3,
             }
             ],
